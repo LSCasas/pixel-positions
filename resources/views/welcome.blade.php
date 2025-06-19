@@ -1,4 +1,5 @@
 <x-layout>
+
     <div class="space-y-10">
         <section>
             <x-section-heading>Featured Jobs</x-section-heading>

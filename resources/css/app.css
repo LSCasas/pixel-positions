@@ -1,3 +1,3 @@
-@import "tailwindcss/preflight";
-/* @tailwind components; */ /* sigue comentado o eliminado */
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
