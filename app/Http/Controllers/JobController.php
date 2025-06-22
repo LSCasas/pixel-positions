@@ -17,11 +17,12 @@ class JobController extends Controller
         $jobs = Job::all()->groupBy('featured');
 
         return view('jobs.index', [
-            'featuredJobs' => $jobs[0],
-            'jobs' => $jobs[1],
+            'featuredJobs' => $jobs[true] ?? [],
+            'jobs' => $jobs[false] ?? [],
             'tags' => Tag::all(),
         ]);
     }
+
 
     /**
      * Show the form for creating a new resource.
