@@ -3,7 +3,7 @@
 A Laravel web application to manage pixel positions and related operations. This project was created following a Laracasts tutorial and demonstrates routing, controllers, models, migrations, and Blade views in Laravel.
     
 --- 
- 
+  
 ## Table of Contents
 
 -   [Project Structure](#project-structure)
